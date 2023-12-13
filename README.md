@@ -1,14 +1,28 @@
-# Expo Router Example
+# JobSeeker - Job Search Application in React Native
 
-Use [`expo-router`](https://expo.github.io/router) to build native navigation using files in the `app/` directory.
+JobSeeker is a personal project developed by a beginner in software development with the goal of exploring and applying knowledge in React Native and mobile app development. The application provides a simple job search platform inspired by services like LinkedIn.
 
-## 🚀 How to use
+## Key Features:
+### User Interface Handling:
+- Use of basic React Native components: `View`, `Text`, `Image`.
+- Styling integration with `StyleSheet`.
 
-```sh
-npx create-expo-app -e with-router
-```
+### Data and User Interaction:
+- Local state management using `useState`.
+- User input handling with `onChangeText`.
 
-## 📝 Notes
+### Connection with External Services:
+- Job search API consumption: [Job API](https://jsearch.p.rapidapi.com) using `fetch` or `axios`.
 
-- [Expo Router: Docs](https://expo.github.io/router)
-- [Expo Router: Repo](https://github.com/expo/router)
+### Navigation and Events:
+- List handling with `FlatList`.
+- Screen navigation.
+- User event handling with `onPress`.
+
+## Technologies Used
+- React Native
+- JavaScript
+- Job API (https://jsearch.p.rapidapi.com)
+
+## Project Status
+This project is continuously evolving as I learn and apply new concepts. I appreciate any suggestions or contributions from the community!
